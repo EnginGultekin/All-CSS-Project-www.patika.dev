@@ -1,0 +1,56 @@
+/*********** Layout ***********/
+
+/***  class -> .text-red {}  ***/
+/***  #id-bilgisi -> .text-red {}  ***/
+
+
+/*  Birden fazla etiketi bu şekilde tanımlayabiliriz */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: mediumspringgreen;
+}
+
+p {
+    color: #af521c;
+}
+
+
+/***** Class  *****/
+
+.text-darkgreen {
+    color: darkgreen;
+}
+
+/* fs-15 ne demek --> Font Size 15px demek kısaltılmış class ismi */
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+
+/***** ID *****/
+/* NOOOOOT !!!!!  Bu stilleri sadece tek bir etikete yani sadece bu id yi 
+    taşıyan etikete verilebilir yani tek bir yerde bir kez kullanılır sadece  */
+
+#first-id {
+    color: rgb(190, 37, 10);
+}
+
+#second-id {
+    color: black;
+}
+
+#unique-id {
+    color: yellow;
+}

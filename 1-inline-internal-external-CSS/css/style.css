@@ -1,0 +1,28 @@
+/*************** Yotum Satırı Bu Şşekilde ***************/
+
+h1 {
+    color:aqua;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    color:chartreuse;
+    font-size: 50px;  
+}
+p {
+    color:mediumorchid;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+body {
+    background-color: lightgoldenrodyellow;
+}
+.firstDiv {
+    border: 7px outset gold;
+    background-color: lightblue;
+    text-align: center;
+    margin: 100px;
+  }

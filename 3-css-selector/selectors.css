@@ -1,0 +1,103 @@
+/************** Slectors **************/
+
+
+/* Sadece h1 bşlıklar */
+h1 {
+    text-align: center;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+body {
+    border: solid;
+    border-color: gold;
+}
+
+/* tüm Projeye margin ve pading verme  */
+* {
+    margin: 10px;
+    padding: 100;
+}
+
+div {
+    color: blueviolet;
+}
+
+/************************ Class ***************************/
+/* 1 Class kullanarak */
+.color-blue {
+    color: blue;
+}
+
+/* İki Class'ı zorunlu kullanarak */
+
+.text-bold.color-red {
+    font-weight: bold;
+    color: red;
+}
+
+/* İki Class'ı ikisinden birini ya da ikisini iste bağlı kullanarak */
+/* text-bold sınıfı içinde color-red kullan demek */
+.text-bold .color-red {
+    font-weight: bold;
+    color: red;
+}
+
+/************************ ID ***************************/
+
+#color-orange {
+    color: orange;
+}
+
+#color-pink {
+    color: rgb(231, 7, 138);
+}
+
+/*******************************************************/
+
+[name] {
+    color: yellow;
+}
+
+.btn[disabled] {
+    color: rgb(22, 218, 54);
+  }
+
+
+  /* Grup Seçiciler (Group Selectors) */
+
+  p > span{
+    color:orange;
+  }
+  p > span >b{
+    color:blue;
+  }
+  div > ul >li#first{
+    color:red;
+  }
+
+
+  /* Torun-Soy Seçiciler (Descentad Selectors) 
+  div p{
+    background-color:blue;
+  }  */
+
+  a#google:link {
+    color: red;
+  }
+
+  a.test:hover {
+    color: red;
+  }
+
+  a:active {
+    position: relative;
+    top: 5px;
+  }
+
+  li:first-child {
+    color: blue;
+  }
+  li:last-child {
+    color: aqua;
+  }
